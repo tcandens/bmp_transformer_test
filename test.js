@@ -2,10 +2,10 @@
 
 var fs = require('fs');
 
-// var path = './lib/non-palette-bitmap.bmp';
-var path = './lib/non-palette-bitmap.bmp';
+// var input = './lib/non-palette-bitmap.bmp';
+var input = './image/src/non-palette-bitmap.bmp';
 
-fs.readFile(path, function(error, data) {
+fs.readFile(input, function(error, data) {
 
   if (error) console.log(error);
 
