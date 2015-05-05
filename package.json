@@ -1,0 +1,30 @@
+{
+  "name": "bitmap_transformer",
+  "version": "0.1.0",
+  "description": "Bitmap Transformer ======================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcandens/bmp_transformer_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcandens/bmp_transformer_test/issues"
+  },
+  "homepage": "https://github.com/tcandens/bmp_transformer_test#readme",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.4"
+  }
+}
