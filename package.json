@@ -1,24 +1,18 @@
 {
   "name": "bitmap_transformer",
   "version": "0.1.0",
-  "description": "Bitmap Transformer ======================",
+  "description": "Bitmap Transformer",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tcandens/bmp_transformer_test.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tcandens/bmp_transformer_test/issues"
-  },
-  "homepage": "https://github.com/tcandens/bmp_transformer_test#readme",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^2.3.0",
     "grunt": "^0.4.5",
