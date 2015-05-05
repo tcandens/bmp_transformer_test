@@ -3,14 +3,14 @@
 var fs = require('fs');
 var EventEmitter = require('events').EventEmitter;
 
-var input = './images/src/large.bmp';
+var input = './images/src/land.bmp';
 // Use vars to dynamically name/date new image file
 var output = './images/new/new.bmp';
 
 var ee = new EventEmitter();
 
 // REQUIRE DIFFERENT TRANSFORM STREAM CONSTRUCTORS
-var InvertPalette = require('./lib/transformstream');
+var InvertPalette = require('./lib/transforms/invertcolors');
 
 // TRANSFORM STREAMS
 var invertPaletteStream = new InvertPalette();
