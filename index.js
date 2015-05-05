@@ -4,7 +4,7 @@ var fs = require('fs');
 var EventEmitter = require('events').EventEmitter;
 
 var input = './images/src/land.bmp';
-// Use vars to dynamically name/date new image file
+// TODO: Use vars to dynamically name/date new image file
 var output = './images/new/new.bmp';
 
 var ee = new EventEmitter();
