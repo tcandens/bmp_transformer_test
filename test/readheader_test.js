@@ -9,6 +9,7 @@ describe('readheader.js', function() {
     fs.readFile('./images/src/bitmap1.bmp', function(err, data) {
       var header = readHeader(data);
       expect(header.paletteStart).to.eql(54);
+      done();
     });
   });
 });
